@@ -8,20 +8,15 @@
             $this->titolo = $_titolo ;
 
         }
-        
-        function setTitle($_title){
-            $this->titolo = $_title;
-        }
-        function getTitle($_title){
-            return $this->$_title;
-        }
+
 
     }
 
 $thebatman = new Movie(176, "The Batmana");
 
-
 $bulletTrain= new Movie(127, "Bullet Train");
 
-
 var_dump($thebatman);
+var_dump($bulletTrain);
+?>
+
